@@ -20,7 +20,7 @@ int main(void)
 				putchar(m);
 				if (n != '8' || (n == '8' && m != 9))
 				{
-					if (n == 8 && m == 9)
+					if (n == '8' && m == '9')
 					{
 						break;
 					}

@@ -18,13 +18,13 @@ int main(void)
 			{
 				putchar(n);
 				putchar(m);
+				if (n == 8 && m == 9)
+				{
+					continue;
+				}
+				putchar(',');
+				putchar(' ');
 			}
-			if (n == 8 && m == 9)
-			{
-				continue;
-			}
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	return (0);

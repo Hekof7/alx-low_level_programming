@@ -13,12 +13,12 @@ int main(void)
 	{
 		if (n == 101 || n == 113)
 		{
-			n++
+			n++;
 			continue;
 		}
 		putchar(n);
 		n++;
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }

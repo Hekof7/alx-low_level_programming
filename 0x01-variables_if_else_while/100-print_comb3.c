@@ -7,25 +7,28 @@
 
 int main(void)
 {
-	int n;
-	int m;
+	int n = '0';
+	int m = '0';
 
-	for (n = 0; n <= 8; n++)
+	while (n <= '9')
 	{
-		for (m = n + 1; m <= 9; m++)
+		while (n <= m)
 		{
 			if (n != m)
 			{
 				putchar(n);
 				putchar(m);
-				if (n == 8 && m == 9)
+				if (n != '8' || (n == '8' && m != 9))
 				{
-					continue;
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
-				putchar(' ');
 			}
+			m++
+
 		}
+		n++;
+		m = '0';
 	}
 	return (0);
 }

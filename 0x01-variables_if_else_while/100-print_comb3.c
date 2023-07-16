@@ -12,6 +12,7 @@ int main(void)
 
 	while (n <= '9')
 	{
+		m = '0';
 		while (m <= '9')
 		{
 			if (n < m)
@@ -28,7 +29,7 @@ int main(void)
 
 		}
 		n++;
-		m = '0';
 	}
+	putchar('\n');
 	return (0);
 }

@@ -26,7 +26,7 @@ int main(void)
 						putchar(' ');
 						putchar(num3);
 						putchar(num4);
-					if (num1 + num2 + num3 + num4 == '179' && num1 == '9')
+					if (num1 + num2 + num3 + num4 == 227 && num1 == 57)
 					{
 					break;
 					}

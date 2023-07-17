@@ -9,7 +9,7 @@ int main(void)
 {
 	int num1, num2, num3, num4;
 
-	num1, num2, num3 num 4 = '0';
+	num1 =  num2 = num3 = num 4 = '0';
 
 	while (num1 <= '9')
 	{
@@ -25,7 +25,7 @@ int main(void)
 						putchar(num2);
 						putchar(' ');
 						putchar(num3);
-						putchar(num4;
+						putchar(num4);
 					if (num1 + num2 + num3 + num4 == '179' && num1 == '9')
 					{
 					break;

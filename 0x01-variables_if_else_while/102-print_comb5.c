@@ -19,7 +19,7 @@ int main(void)
 			{
 				while (num4 <= '9')
 				{
-					if (((num3 + num4) > (num1 + num2)) && (num3 >= num1))
+					if (((num3 + num4) > (num1 + num2)) && (num3 >= num1) || num1 < num3)
 					{
 						putchar(num1);
 						putchar(num2);

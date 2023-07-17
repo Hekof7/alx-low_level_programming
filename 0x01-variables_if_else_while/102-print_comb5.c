@@ -2,7 +2,7 @@
 /**
  * main - prints a sequence of four digits
  *
- * return: always 0
+ * return: always 0 (success)
  */
 
 int main(void)

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main - display characters from a to z in lower case
+ * print_alphabet - Prints the lowercase alphabet on a single line.
  *
- * Return: always 0
+ * Return: void
  */
 
 int print_alphabet(void)

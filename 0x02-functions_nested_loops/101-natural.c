@@ -6,9 +6,9 @@
  * Return: always 0
  */
 
-void main(void)
+int main(void)
 {
-	int i; 
+	int i = 0; 
 	int z = 0;
 
 	while (i < 1024)

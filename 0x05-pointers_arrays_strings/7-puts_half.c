@@ -24,8 +24,8 @@ void puts_half(char *str)
 
 	while (*ptr != '\0')
 	{
-		putchar(*ptr);
+		_putchar(*ptr);
 		ptr++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
